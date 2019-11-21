@@ -15,7 +15,7 @@
         <maxiOS>13.2.3</maxiOS>
     </compatibility>
     <dependencies>
-        <dependency>com.spark.snowboard</dependency>
+        <dependency>Snowboard (SparkDev)</dependency>
     </dependencies>
     <changelog>
         <change>
