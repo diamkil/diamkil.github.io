@@ -1,0 +1,31 @@
+<packageInfo>
+    <bundleId>com.diamkil.morelotusicons</bundleId>
+    <name>More Lotus Icons</name>
+    <version>1.3</version>
+    <descriptions>
+        <description>
+            My custom Lotus Dark icons
+        </description>
+        <description>
+            You can dm me on discord for you designs on send me a message about which ones to do next (discord: diamkil#6969)
+        </description>
+    </descriptions>
+    <compatibility>
+        <miniOS>10.0</miniOS>
+        <maxiOS>13.2.3</maxiOS>
+    </compatibility>
+    <dependencies>
+        <dependency>com.spark.snowboard</dependency>
+    </dependencies>
+    <changelog>
+        <change>
+            <changeVersion>V1.3 </changeVersion>
+            <changeDescription>Added some icons:</changeDescription>
+            <changeDescription>New apple developer app icon and don't starve icon</changeDescription>
+        </change>
+        <change>
+            <changeVersion>V1.2</changeVersion>
+            <changeDescription>An older version</changeDescription>
+        </change>
+    </changelog>
+</packageInfo>
