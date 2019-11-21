@@ -1,12 +1,35 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui, viewport-fit=cover">
+<title>diamkil's Repo</title>
+<link rel="icon" href="./logo.jpeg" type="image/gif" sizes="16x16">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <title>My Super Cool Repo!</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"/>
+<style>
+
+
+
+</style>
 </head>
-<body>
-  <h1> [Your Name]'s Cydia Repository </h1>
-  <a class="cydiaLink" href="cydia://url/https://cydia.saurik.com/api/share#?source=[Add the link to your repo here, ie: mdausch.github.io]"> Click here to add [Your Name]'s Repo to Cydia!
+
+<body style="background-color:#f2f2f2;">
+  <br>
+<center><h1 style="font-family:arial;font-size:20px;color:#444444;">diamkil's Repo</h1></center>
+<br>
+<center><p style="font-family:arial;font-size:25px;color:#444444;">My repo for themes and stuff</p></center>
+<br>
+<center><input style="font-family:arial;background-color:#f2f2f2;border-radius:10px;display:block;width:200px;padding:10px;" type="text" value="http://repo.diamkil.com" id="myInput"><button style="font-family:arial;font-size:12px;padding:8px;margin:8px;" onclick="myFunction()">Copy Repo</button></center>
+<br>
+<center><a style="text-decoration:none;font-family:arial;font-size:15px;padding:10px;" href="https://ioshacker.com/how-to/how-to-add-a-repo-in-cydia">How To Add A Repo</a></center>
 </body>
 </html>
+
+<script>function myFunction() {
+
+  var copyText = document.getElementById("myInput");
+
+  copyText.select();
+
+  document.execCommand("copy");
+
+  alert("Copied the text: " + copyText.value);
+}</script>
